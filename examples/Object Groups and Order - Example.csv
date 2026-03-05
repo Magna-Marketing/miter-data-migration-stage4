@@ -1,0 +1,5 @@
+Order,Group,Object (Target API Name),Ingestion Method,External ID Field,Notes
+1,Foundation,User,Data Loader,(Salesforce Id),No External ID - insert/match by Username or Id
+2,Foundation,Account,Azure / Data Loader,Legacy_Account_Id__c,After User
+3,Core,Contact,Azure / Data Loader,Legacy_Contact_Id__c,After Account; User
+4,Core,Opportunity,Azure / Data Loader,Legacy_Opportunity_Id__c,After Account; Contact; User

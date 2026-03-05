@@ -1,0 +1,9 @@
+Object (Target API Name),Field API Name,Source Value,Target Value (API Name),Notes
+Account,Industry,1,Technology,Code 1 = Technology
+Account,Industry,2,Finance,Code 2 = Finance
+Account,Industry,3,Healthcare,Code 3 = Healthcare
+Account,Type,Customer,Customer,Label to API
+Account,Type,Prospect,Prospect,
+Opportunity,StageName,Won,Won,
+Opportunity,StageName,Lost,Lost,
+Opportunity,StageName,Open,Prospecting,Source "Open" maps to "Prospecting"

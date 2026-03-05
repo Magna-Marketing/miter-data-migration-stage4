@@ -1,0 +1,5 @@
+Object Type,Source - Object Name,Source - Object API Name,Source - Standard/Custom,Source - Record Counts,Source - Record Count UpdatedAt,Object Dependency,Related Object Fields,Target - Object Name,Target - Object API Name,Target - Standard/Custom,Target - Record Counts,Target - Record Count UpdatedAt,Filter,Field Mapping Tab,Notes
+Data,Users,users,Standard,150,2025-02-01,None,ManagerId,User,User,Standard,0,,Active = 1,Fields Mapping - User,Load first - no dependency
+Data,Accounts,accounts,Standard,5000,2025-02-01,User,OwnerId;CreatedById,Account,Account,Standard,0,,IsDeleted = 0,Fields Mapping - Account,External ID: Legacy_Account_Id__c
+Data,Contacts,contacts,Standard,25000,2025-02-01,Account;User,AccountId;OwnerId;ReportsToId,Contact,Contact,Standard,0,,DoNotMigrate = 0,Fields Mapping - Contact,Depends on Account and User
+Data,Opportunities,opportunities,Standard,12000,2025-02-01,Account;Contact;User,AccountId;OwnerId;PrimaryContactId,Opportunity,Opportunity,Standard,0,,Stage NOT IN ('Lost'),Fields Mapping - Opportunity,Depends on Account; Contact; User

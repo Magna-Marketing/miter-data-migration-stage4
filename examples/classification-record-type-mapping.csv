@@ -1,0 +1,4 @@
+Object (Target API Name),Source Record Type,Source Code,Target RecordTypeId,Target Developer Name,Notes
+Account,Customer,CUST,012xxxxxxxxxxxxxxx,Customer,
+Account,Partner,PART,012yyyyyyyyyyyyyyy,Partner,
+Opportunity,New Business,NB,012zzzzzzzzzzzzzzz,New_Business,

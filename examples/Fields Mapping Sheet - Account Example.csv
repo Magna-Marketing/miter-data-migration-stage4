@@ -1,0 +1,13 @@
+Source - Field Label,Source - Field API Name,Source - Data Type,Target - Field Label,Target - Field API Name,Target - Data Type,Transform / Notes
+Account ID,account_id,Number,Legacy Account Id,Legacy_Account_Id__c,External ID (Text),Primary key - upsert key
+Account Name,name,Text,Account Name,Name,Text,Direct map
+Owner ID,owner_id,Number,Owner ID,OwnerId,Lookup,User Mapping classification
+Created Date,created_at,DateTime,Created Date,CreatedDate,DateTime,Retain from source
+Last Modified,updated_at,DateTime,Last Modified Date,LastModifiedDate,DateTime,Retain from source
+Industry Code,industry_code,Text,Industry,Industry,Picklist,Picklist Mapping classification
+Annual Revenue,annual_revenue,Number,Annual Revenue,AnnualRevenue,Currency,Direct map
+Billing Street,billing_street,Text,Billing Street,BillingStreet,Text,Direct map
+Billing City,billing_city,Text,Billing City,BillingCity,Text,Direct map
+Billing State,billing_state,Text,Billing State/Province,BillingState,Text,Direct map
+Billing Postal Code,billing_postal,Text,Billing Zip/Postal Code,BillingPostalCode,Text,Direct map
+Billing Country,billing_country,Text,Billing Country,BillingCountry,Text,Direct map
