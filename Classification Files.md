@@ -8,11 +8,13 @@
 
 ## 1. Types of Classification Files
 
-| Type | Purpose | Typical Columns |
-|------|---------|------------------|
-| **User Mappings** | Map source user id/email to Salesforce User Id | Source User Id, Source Email, Target User Id (Salesforce Id) |
-| **Record Type Mappings** | Map source type/code to Salesforce RecordTypeId | Source Record Type, Source Code, Target RecordTypeId |
-| **Picklist Mappings** | Map source picklist value to target API value | Object, Field, Source Value, Target Value (API name) |
+
+| Type                     | Purpose                                         | Typical Columns                                              |
+| ------------------------ | ----------------------------------------------- | ------------------------------------------------------------ |
+| **User Mappings**        | Map source user id/email to Salesforce User Id  | Source User Id, Source Email, Target User Id (Salesforce Id) |
+| **Record Type Mappings** | Map source type/code to Salesforce RecordTypeId | Source Record Type, Source Code, Target RecordTypeId         |
+| **Picklist Mappings**    | Map source picklist value to target API value   | Object, Field, Source Value, Target Value (API name)         |
+
 
 ---
 
@@ -57,3 +59,4 @@
 
 - Update classification files when new users, record types, or picklist values are added.
 - Version or date the files if re-runs are performed (e.g. in filename or Execution Plan).
+

@@ -1,8 +1,13 @@
 # Data Migration Playbook – Salesforce
 
-Step-by-step playbook for Salesforce data migrations: **Discovery → Planning → Build**, with client and internal sign-offs at each phase.
+Step-by-step playbook for Salesforce data migrations: **Discovery → Planning → Build**, with client and internal sign-offs at each phase. The canonical flow diagram lives in Lucidchart and the source-of-truth scoping/details live in the Discovery Sheet.
 
 ---
+
+## Key references
+
+- [Lucidchart flow](https://lucid.app/lucidchart/aafbca0e-adb5-4abe-8a17-f64d0439e001/edit?viewport_loc=-1401%2C-460%2C4095%2C1567%2CO1eC2VujR56J&invitationId=inv_2311de17-9796-4ef9-9f5e-05fa369c21a2)
+- [Discovery Sheet (Google Sheet)](https://docs.google.com/spreadsheets/d/1lA_l1GvnI3x9kp3G8qPTxg0deQAV8f9U3hdGDa_cSKk/edit?usp=sharing)
 
 ## Flow (high level)
 
@@ -10,7 +15,7 @@ Step-by-step playbook for Salesforce data migrations: **Discovery → Planning �
 2. **Planning** – Data Migration Execution Plan (+ Build Metadata) → sign-off → Data Migration Checklist → internal sign-off.
 3. **Build** – Source/Target/Validation queries → Pipelines → Migration Audit Sheet → Run loads (in order; backup after each) → Internal Data Sign-off → Client Data Sign-off.
 
-Detailed flow matches the attached playbook diagram and the **Data Migration Checklist**.
+Detailed flow matches the Lucidchart flow and the **Data Migration Checklist**.
 
 ---
 
