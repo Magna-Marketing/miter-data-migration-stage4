@@ -1,5 +1,2 @@
 Object (Target API Name),Source Record Count,Source Count Date,Target Record Count,Target Count Date,Variance,Notes
 User,150,2025-02-10,150,2025-02-11,0,OK
-Account,5000,2025-02-10,5000,2025-02-11,0,OK
-Contact,25000,2025-02-10,25000,2025-02-11,0,OK
-Opportunity,12000,2025-02-10,11998,2025-02-11,-2,2 records failed validation - see log

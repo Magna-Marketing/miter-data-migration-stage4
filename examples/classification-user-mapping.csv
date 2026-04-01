@@ -1,4 +1,2 @@
 Source User Id,Source Email,Source Username,Target User Id (Salesforce),Target Username,Is Default (Y/N),Notes
 101,joe@client.com,joe@client.com,005xxxxxxxxxxxxxxx,joe@client.sandbox.com,N,
-102,jane@client.com,jane@client.com,005yyyyyyyyyyyyyyy,jane@client.sandbox.com,N,
-999,legacy@old.com,legacy@old.com,005zzzzzzzzzzzzzzz,migration@client.sandbox.com,Y,Default for unknown users
