@@ -1,7 +1,0 @@
-Source - Field API Name,Source - Field Label,Source - Data Type,Target - Field Label,Target - Field API Name,Target - Data Type,Transform / Notes
-Campaign Member Status,Status,Picklist,Status,Status,Picklist,
-Has Responded,HasResponded,Checkbox,Has Responded,HasResponded,Boolean_,
-First Responded Date,FirstRespondedDate,Date,First Responded Date,FirstRespondedDate,DateTime,
-Sort Order,SortOrder,Number,Sort Order,SortOrder,Number,
-Label,Label,Text,Label,Label,Text,
-Campaign Id,CampaignId,Lookup(Campaign),Campaign Id,CampaignId,Lookup(Campaign),
